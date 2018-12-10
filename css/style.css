@@ -1,0 +1,251 @@
+body{
+    margin: 0;
+    
+    font-family: roboto;
+    font-size: 16px;
+    line-height: 24px;
+    color: #283136;
+    
+    background-color: #ffffff;
+    min-height: 2476px;
+    min-width: 1440px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+.main-header {
+    min-height: 545px;
+    margin-bottom: 80px;
+}
+
+.main-header-logo a:hover,
+.main-header-logo a:focus {
+    opacity: 80%;
+}
+
+.main-header-logo a:active{
+    opacity: 30%;
+}
+
+.main-navigation {
+    font-size: 17.5px;
+    line-height: 31.5px;
+    color: #000000;
+    
+    background-color: #eeeeee;
+}
+
+.site-navigation,
+.user-navigation {
+    list-style: none;
+}
+
+
+.site-navigation a,
+.user-navigation a {
+    color: #000000;
+}
+
+.site-navigation a:hover,
+.site-navigation a:focus,
+.user-navigation a:hover, 
+.user-navigation a:focus {
+    color:  #fb565a;
+}
+
+.site-navigation a:active,
+.user-navigation a:active {
+    color: var(--black--30);
+}
+
+.development-list {
+    list-style: none;
+}
+
+
+.development-item {
+    text-align: center;
+}
+
+.development-item h3 {
+    font-size: 24.5px;
+    line-height: 31.5px;
+    color: #000000
+}
+
+.web-site{
+    font-size: 17.5px;
+    line-height: 17.5px;
+    color: #ffffff;
+    background-color: #fb565a;
+}
+.web-site:hover,
+.web-site:focus{
+    color: #ffffff;
+    background-color: #e74246;
+}
+.web-site:active{
+    color: var(--white-30);
+    background-color: #d7373b;
+}
+.apps{
+    font-size: 17.5px;
+    line-height: 17.5px;
+    color: #ffffff;
+    background-color: #00ca74;
+}
+.apps:hover,
+.apps:focus{
+    color: #ffffff;
+    background-color: #00bc6c;
+}
+.apps:active{
+    color: var(--white-30);
+    background-color: #00aa62;
+}
+.Presentations{
+    font-size: 17.5px;
+    line-height: 17.5px;
+    color: #ffffff;
+    background-color: #efc84a;
+}
+.Presentations:hover,
+.Presentations:focus{
+    color: #ffffff;
+    background-color: #eab534;
+}
+.Presentations:active{
+    color: var(--white-30);
+    background-color: #e5a722;
+}
+.about-us-left,
+.about-us-right {
+    color: #283136;
+    background-color: #ffffff;
+    
+}
+.about-us-left h2 {
+    font-size: 45.5px;
+    line-height: 45.5px;
+    color: #000000
+}
+
+.about-us-left h4,
+.about-us-right h4 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000
+}
+
+
+.main-footer {
+    color: #444444;    
+    background-color: #ffffff;    
+}
+
+.footer-social {
+    text-align: left;
+}
+
+.footer-social ul {
+    list-style: none;
+}
+
+.social-button {
+    
+    color: #000000;
+    background-color: #e1e1e1;
+}
+.social-button:hover,
+.social-button:focus {
+    background-color: #e74246;
+}
+.social-button:active {
+    background-color: #d7373b;
+}
+
+.copyright {
+    text-align: center;
+}
+
+.copyright h3 {
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;    
+}
+
+.letter input {
+    font: inherit;
+
+    background-color: transparent;
+    border: 2px solid #d7dcde;
+}
+.letter input:hover {
+    background-color: transparent;
+    border: 2px solid #b4b9bb;
+}
+.letter input:focus {
+    background-color: transparent;
+    border: 2px solid #000000;
+}
+.letter input:active {
+    background-color: transparent;
+    border: 2px solid #e74246;
+}
+
+/* стили каталога*/
+.main-navigation h1 {
+    font-size: 54px;
+    line-height: 54px;
+    text-align: center;
+    color: black;
+}
+.filter fieldset {
+    border: none;
+}
+
+.filters ul {
+    list-style: none;
+}
+
+.filter-option {
+    font-size: 16px;
+    line-height: 20px;
+    color: #283136
+}
+
+.filter-option input {
+    background-color: #4d4d4d;
+    opacity: 40%;
+}
+
+.filter-option input:hover,
+.filter-option input:focus {
+    background-color: #4d4d4d
+}
+.filter-option input:disabled + label{
+    background-color: #4d4d4d;
+    opacity: 10%
+}
+
+.catalog-list {
+    list-style: none;
+}
+
+.price {
+    font-size: 16px;
+    line-height: 18px;
+    color: white;
+    
+    background-color: #fb565a;
+}
+
+.price:active {
+    background-color: #d7373b;
+}
+.price:hover,
+.price:focus {
+    background-color: #e74246;
+}

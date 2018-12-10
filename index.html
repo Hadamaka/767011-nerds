@@ -3,12 +3,15 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet"> 
   </head>
   
   <body>
       <header class="main-hiader">
           <nav class="main-navigation">
-              <a class="main-header-">
+              <a class="main-header-logo">
                   <img src="img/nerds-logo.png" width="160px" height="65px" alt="логотоп дизайн студи"Нёрдс"">
               </a>
               <ul class="site-navigation">
@@ -18,7 +21,7 @@
                   <li><a href="#">Контакты</a></li>
               </ul>
               <ul class="user-navigation">
-                  <li class="login-link">Вход</li>
+                  <li><a class="login-link" href="#">Корзина</a></li>
               </ul>
           </nav>          
       </header>
@@ -31,21 +34,21 @@
                   </p>
                   <h3>веб сайты</h3>
                   <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-                  <a href="#" class="button">Заказать</a>
+                  <a href="#" class="button web-site">Заказать</a>
               </li>
               <li class="development-item">
                   <p><img src="img/illustration-2.png" width="300px" height="146px" alt="картинка приложений">
                   </p>
                   <h3>Приложения</h3>
                   <p>Покорите топ-10 приложений в AppStore и Google Play</p>
-                  <a href="#" class="button">Заказать</a> 
+                  <a href="#" class="button  apps">Заказать</a> 
               </li>
               <li class="development-item">
                   <p><img src="img/illustration-3.png" width="300px" height="146px" alt="картинка презентаций">
                   </p>
                   <h3>Презентации</h3>
                   <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-                  <a href="#" class="button">Заказать</a>
+                  <a href="#" class="button Presentations">Заказать</a>
               </li>         
           </ul>
       </section>
@@ -66,9 +69,9 @@
               <h4>с 2004 года Любим точность во всем:</h4>
               <table border="0" >
                   <tr>
-                      <tb>146<sup>%</sup></tb>
+                      <td>146<sup>%</sup></td>
                       <td>100<sup>%</sup></td>
-                      <td>50<sub>%</sub></td>
+                      <td>50<sup>%</sup></td>
                   </tr>
                   <tr>
                       <td>Уровень самоотдачи</td>
@@ -79,7 +82,7 @@
           </div>
       </section>
       
-      <footer>
+      <footer class="main-footer">
           <div class="footer-social">
               <ul>
                   <li><a class="social-button" href="#">Вконтакте</a></li>
