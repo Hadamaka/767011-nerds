@@ -48,13 +48,14 @@ a{
     height: 65px;
     
 }
+
 .main-header-logo a:hover,
 .main-header-logo a:focus {
-    opacity: 80%;
+    opacity: 0.8;
 }
 
 .main-header-logo a:active{
-    opacity: 30%;
+    opacity: 0.3;
 }
 
 .site-navigation {
@@ -310,7 +311,7 @@ a{
 
 .filter-option input {
     background-color: #4d4d4d;
-    opacity: 40%;
+    opacity: 0.4;
 }
 
 .filter-option input:hover,
@@ -319,7 +320,7 @@ a{
 }
 .filter-option input:disabled + label{
     background-color: #4d4d4d;
-    opacity: 10%
+    opacity: 0.1;
 }
 
 .cotalog{
@@ -356,3 +357,7 @@ a{
     background-color: #e74246;
 }
 
+
+table {
+    border: 0;
+}
